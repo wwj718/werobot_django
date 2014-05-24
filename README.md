@@ -14,16 +14,8 @@ python werobot_demo.py
 ```
 
 ###设计思路
-*以数据为中心,将werobot作为django与微信的中间人.
-
-感谢几位小伙伴的博客:
-
-*
-*
-
-werobot_demo.py中的核心代码来自于他们.
-
-再次表示感谢.
+*  以数据为中心,将werobot作为django与微信的中间人.
+*  将werobot与django尽可能隔离
 
 ###使用场景
 *  用户使用django admin增删数据,可反映到微信中.如此一来实际相当于微信的第三方后台.本质上是共用数据库
