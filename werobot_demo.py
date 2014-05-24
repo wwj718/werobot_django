@@ -31,6 +31,10 @@ print first_title
 
 @robot.text
 def echo(message):
+
+        from myblog.models import Blog
+        first_title = Blog.objects.all()[0].title
+        print first_title
         if message.content == 'a':
             return message.content
         if message.content == 'title':
